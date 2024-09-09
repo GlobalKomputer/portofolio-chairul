@@ -1,0 +1,124 @@
+/*reswet tampilan browser style*/
+body, h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+  
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #abbaab;
+
+
+}
+header{
+    background-color:rgb(26, 21, 21);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+header h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+header p{
+    font-size: 1.2em;
+
+}
+.profile-img{
+  width:150px ;  
+  height:150px ;
+  border-radius: 50%;
+  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+    background-color:rgb(71, 69, 69);
+    padding: 15px 0;
+    
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+section{
+    padding: 60px 0;
+    text-align: center;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}h2{
+    font-size: 2.5em;
+    margin-bottom: 20px 0;
+    color: #333;
+}
+.project{
+    margin-bottom: 40px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.profile img{
+    width: 400px;
+    height:250 ;
+    border: 5px solid #221a;
+}
+
+
+
+
+/* From Uiverse.io by PriyanshuGupta28 */ 
+.rating {
+    display: inline-block;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .rating label:before {
+    content: '\2605';
+    font-size: 30px;
+  }
+  
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: #6f00ff;
+    transition: color 0.3s;
+  }
+  
+ 
+  
+
+
+  
